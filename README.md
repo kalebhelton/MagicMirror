@@ -1,2 +1,2 @@
 # MagicMirror
-Display for Smart Mirror
+ Display for Smart Mirror
