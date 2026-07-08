@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background: #000000;
+  color: #EDEDED;
+  height: 100%;
+  overflow: hidden; /* kiosk display, no scrollbars on a mirror */
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: transparent;
+}
+
+/* subtle glow so text reads through mirror glass rather than looking like a flat monitor */
+.glow {
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.14);
+}
+
+.glow-accent {
+  text-shadow: 0 0 20px rgba(143, 185, 255, 0.35);
+}
+
+.hairline {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
