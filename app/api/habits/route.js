@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 
 // Checkbox properties in the "Habit Log" Notion database, in display order.
 // Add/remove/reorder habits here — the frontend renders one heatmap per entry.
-const HABITS = ['Workout / Physical Activity', 'Reading / Audiobooks / Podcasts', 'Latte Art', 'Knitting', 'Coding / Personal Projects'];
+const HABITS = ['Workout / Physical Activity', 'Reading / Audiobooks / Podcasts', 'Latte Art', 'Knitting', 'Coding / Personal Projects', 'Socializing'];
 
 async function queryDatabase(databaseId, apiKey, filter, startCursor) {
   const { data } = await axios.post(

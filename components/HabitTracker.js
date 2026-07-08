@@ -9,6 +9,7 @@ const HABIT_LABELS = {
   'Latte Art': 'Latte Art',
   'Fiber Arts': 'Fiber Arts',
   'Coding / Personal Projects': 'Coding / Personal Projects',
+  'Socializing': 'Socializing',
 };
 
 function seededRandom(seed) {
